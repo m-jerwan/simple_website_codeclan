@@ -1,3 +1,13 @@
+
+
+/* ============================COLORS & FONTS:
+
+ font-family: Raleway, Georgia; -simple fontface
+ background-color: #65FFFB; -bluish
+ color: rgba(20,20,20, 1.0); -almost white text
+
+
+*//*====================================GLOBAL DESIGN:*/
 * {
   box-sizing: border-box;
 }
@@ -8,15 +18,24 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: Georgia;
+  font-family: Raleway, Georgia;
   font-size: 2.5vh;
   line-height: 1.5;
-  background-color: rgba(120,120,120, 1.0);
+  background-color: #65FFFB;
   color: rgba(20,20,20, 1.0);
+}
+/*====================================BY CLASS: */
+
+
+.name {
+    width: 100%;
+    border-bottom: solid 3px white;
+    margin: 1em;
+
 }
 
 .name  p{
-  display: block;
+  margin-left: 3em;
 }
 
 .picture_and_text {
@@ -27,10 +46,22 @@
   align-items: center;
 }
 
-img {
-    border-radius: 50%;
+
+/*-image:  */
+.picture {
+  height: 30vh;
+  width: auto;
 }
 
+
+img {
+    margin-top: -5vh;
+    border-radius: 50%;
+    border: solid 5px white;
+}
+
+
+/*-text:  */
 .text_area {
   display: flex;
   flex-direction: column;
@@ -40,5 +71,24 @@ img {
 
 .text_area p {
   margin: 2vw;
-  width: 50vw;
+  width: 55vw;
+  text-align: justify;
+  text-indent: 2.5vw;
 }
+
+
+/*-footer:  */
+  footer{
+    display: flex;
+  }
+
+  footer p:first-of-type {
+    letter-spacing: 0.2vw;
+
+  }
+
+  footer p {
+    font-style: italic;
+    margin: 0 1.5em;
+    font-size: 1.75vh;
+  }
