@@ -78,8 +78,8 @@ background-color: rgba(250, 250, 250, 0.2);
 
 .main a:hover {
   border: red solid 1px;
-  opacity: 0.1;
-  filter: alpha(opacity=10); /* For IE8 and earlier */
+  opacity: 0.0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
 }
 
 
