@@ -1,58 +1,44 @@
 * {
   box-sizing: border-box;
 }
-/* =================================  DESIGN FEAT: */
-/* colors:
-
-
-typeface stack:
- */
-
-/* ================================= LAYOUT & DESIGN*/
-a {
-    text-decoration: none;
-      color: rgba(50, 50, 50, 0.8);
-}
 
 .wrapper-all {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
+  font-family: Georgia;
+  font-size: 2.5vh;
+  line-height: 1.5;
+  background-color: rgba(120,120,120, 1.0);
+  color: rgba(20,20,20, 1.0);
 }
 
-
-/*---------------------------------- NAV*/
-.navig {
-position: absolute;
- width: 100vw;
- /* text-transform: uppercase; */
-background-color: rgba(250, 250, 250, 0.2);
-}
-
-
-.navig-links {
+.name  p{
   display: block;
-  float: right;             /*i want it collapsed. do not fix*/
-  font-family: monospace;
-  font-size: 2em;
 }
 
-
-.navig-links {
-  margin-right: 5em;
+.picture_and_text {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.navig-links li {
-  float: left;
-  margin-top: 1em;
-  margin-right: 1em;
+img {
+    border-radius: 50%;
 }
 
+.text_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-
-/*---------------------------------- MAIN BODY*/
-.main {
-    width: 100vw;
-    flex: 1;
-    background-image: url("img/brand-Edit.jpg") ;
+.text_area p {
+  margin: 2vw;
+  width: 50vw;
 }
