@@ -1,0 +1,2 @@
+Marcin has a Professional Photography degree from Abertay University. Upon graduation he worked as a freelancer specialising in design and advertising photography. More recently, he has gained experience in hospitality management leading a team of 30 with a track record of creating an exceptional customer experience in a pressurised environment.
+Marcin is a positive, creative and problem-solving individual with a thirst for knowledge who is pursuing a career change into tech industry.
